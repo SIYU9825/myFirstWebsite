@@ -3,24 +3,29 @@
     display: table;
     clear: both;
         }
+body{
+    height: 100%;
+    width: 100%;
+    position:absolute;
+}
 .head{
-    height:200px;
+    height:20%;
     width: auto; 
 }
 .main{
-    height:600px;
+    height:70%;
     width: auto; 
-    background-color: rgb(41, 39, 39);
+    background-color:#5352ed;
    
 }
 .footer{
-    height:200px;
+    height:10%;
     width: auto; 
 }
 
 .welcome_word{
     display: block;
-    color: #9e9e9e;
+    color:#ffffff;
     font-family: "Open Sans",poppin,'PingFang SC',"Hiragino Sans GB","Microsoft YaHei","微软雅黑",STHeiti,sans-serif;
     font-size: 50px;
     font-weight: 700;
@@ -50,7 +55,7 @@
     text-align: center;
     margin: 0 auto;
     border-radius: 99px;
-    background-color: rgb(206, 206, 20);
+    background-color:#3742fa;
     color: #fff;
     overflow: hidden;
 }
